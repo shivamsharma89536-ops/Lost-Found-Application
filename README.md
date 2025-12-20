@@ -121,7 +121,7 @@ Add your repository link here:
 - Admin dashboard  
 
 # Contributors
-- Name: Shreyash Sharma  
+- Name: Shivam Sharma  
   Section: A  
   Group Number: 9
 
@@ -131,3 +131,4 @@ All required project files including Android source code, Spring Boot backend, a
 ```
 section_A_group_9.zip
 ```
+
