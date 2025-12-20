@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="147dp"
+        android:layout_height="148dp"
+        android:layout_marginBottom="24dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/tvProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tvProfileEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: Loading..."
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tvProfilePhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone: Loading..."
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
+
+
+
+    <Button
+        android:id="@+id/btnEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile" />
+
+    <Button
+        android:id="@+id/btnMyClaims"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Claims"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnMyMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Messages"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
