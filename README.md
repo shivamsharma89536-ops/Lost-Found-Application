@@ -104,10 +104,10 @@ Backend/
 
 # GitHub Repository Link
 Add your repository link here:  
-`<PASTE GITHUB LINK HERE>`
+`https://github.com/shivamsharma89536-ops/Lost-Found-Application.git`
 
 # Technologies Used
-- Android Studio (Java or Kotlin)  
+- Android Studio (Java)  
 - Spring Boot  
 - REST API architecture  
 - MySQL or H2 Database  
@@ -115,20 +115,14 @@ Add your repository link here:
 
 # Future Enhancements
 - User authentication and login  
-- Push notifications  
-- Image upload support  
+- Push notifications    
 - Cloud-based backend system  
 - Admin dashboard  
 
-# Contributors
-- Name: Shivam Sharma  
-  Section: A  
-  Group Number: 9
-
-# Submission Details
-All required project files including Android source code, Spring Boot backend, and README have been compressed into:
+ 
+ 
 
 ```
-section_A_group_9.zip
+ 
 ```
 
